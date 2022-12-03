@@ -9,5 +9,9 @@ public class GithubDemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(GithubDemoApplication.class, args);
 	}
+	
+	private void test() {
+		System.out.println("Test");
+	}
 
 }
